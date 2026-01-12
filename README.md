@@ -1,19 +1,16 @@
-# me
-Landing page built for OpenAI Grove application.
-
 # COMMON GROUND
 
 Intent alignment before action.
 
-COMMON GROUND is an exploration of how humans and AI can work together
-to reduce ambiguity, prevent conflict, and create shared understanding
-*before* work begins.
+COMMON GROUND explores how humans and AI can work together to reduce
+ambiguity, prevent conflict, and create shared understanding before
+work begins.
 
 This project focuses on:
-- intent clarification
-- reflection and confirmation
-- compression to reduce cognitive load
-- keeping humans in control
+- clarifying intent
+- reflecting clearly back to humans
+- reducing cognitive load through compression
+- keeping humans in control of decisions
 
 The live thinking artifact lives here:
 👉 https://elmreks.github.io/me/
