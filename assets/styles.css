@@ -1,0 +1,25 @@
+/* styles preserved from original + theme support */
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background: #f4f1ec;
+  color: #111;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+h1 { font-size: 2rem; margin-bottom: 0.25em; }
+.subtitle { margin-bottom: 2em; }
+.accent { color: #b00020; font-weight: 540; letter-spacing: 0.9px; }
+section { margin-bottom: 2.5em; }
+pre { white-space: pre-wrap; margin: 0; }
+.section-title { font-weight: 720; letter-spacing: 0.9px; }
+
+/* nav */
+#site-nav { margin-bottom: 20px; }
+.nav-inner {
+  display: flex; justify-content: space-between; align-items: center;
+  border-bottom: 1px solid #ddd; padding-bottom: 8px;
+}
+.nav-links a { margin-right: 12px; text-decoration: none; color: inherit; }
+.theme-btn { font-family: inherit; }
