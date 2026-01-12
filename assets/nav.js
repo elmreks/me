@@ -7,7 +7,10 @@
     mount.innerHTML = await res.text();
 
     const path = (location.pathname || "").toLowerCase();
-    const current = path.endsWith("/ideas.html") ? "ideas" : "index";
+const current =
+  path.endsWith("/ideas.html") ? "ideas" :
+  path.endsWith("/attention.html") ? "attention" :
+  "index";
 
     mount.querySelectorAll("a[data-nav]").forEach(a => {
       if (a.getAttribute("data-nav") === current) a.setAttribute("aria-current", "page");
